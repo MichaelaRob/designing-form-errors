@@ -6,7 +6,7 @@ html {
   color: #999;
 }
 
-.is-validated input-invalid,
+.is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
 .is-validated[type="checkbox"]:invalid + label::before {
@@ -17,11 +17,6 @@ html {
   display: none;
   background-color: #fee;
   color: #c33;
-}
-
-.error-message-highlighted {
-  background-color: #c33;
-  color: #fff;
 }
 
 .error-message-highlighted {
